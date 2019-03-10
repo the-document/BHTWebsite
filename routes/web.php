@@ -37,5 +37,13 @@ Route::get('/home', 'HomeController@index');
 //$this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm');
 //$this->post('password/reset', 'Auth\ResetPasswordController@reset');
 
+//Route::post('posts/CreateNewPost',function (){
+//    return view('home');
+//});
 
+Route::get('posts/CreateNewPost','PostsController@GetCreatePost');
+Route::post('posts/CreateNewPost','PostsController@CreatePost');
 
+Route::get('posts',function (){
+    return 'posts';
+});
