@@ -1,11 +1,18 @@
+html {
+    height: 100%;
+    margin: 0;
+}
 body {
+    min-height: 100%;
     background-color: #f4f4f4;
     margin: 0;
     font-family: Quicksand, Roboto, Open Sans, Tahoma, Arial, sans-serif;
+    padding-top: 52px;
 }
 
+
 .body-page {
-    margin-top: 93px;
+    margin-top: 30px;
 }
 
 /* header */
@@ -146,17 +153,17 @@ ul.nav-full {
     color: #fff;
 }
 
-/* post-container */
-.post-container {
+/* nb-card */
+.nb-card {
     display: flex;
     flex-direction: column;
     background: #fff;
     border-radius: 5px;
     margin-top: 15px;
-    padding: 5px;
+    padding: 12px;
 }
 
-.post-container .post-head {
+.nb-card .nb-card-head {
     font-size: 25px;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -190,7 +197,15 @@ ul.nav-full {
     cursor: pointer;
 }
 
-.post-container .post-body.brief {
+.nb-card-head h3.post-title {
+    margin: 5px 0;
+}
+
+.post-img img{
+    width: 100%;
+}
+
+.nb-card .nb-card-body.brief {
     margin-top: 15px;
     height: 20px;
     overflow: hidden;
@@ -199,19 +214,88 @@ ul.nav-full {
     line-height: 1.2em;
 }
 
-.post-container .post-body{
+.nb-card .nb-card-body{
 
 }
 
-.post-foot .post-tag {
+.nb-card-foot {
+    padding-top: 15px;
+}
+
+.nb-card-foot .author-name{
+    text-align: right;
+}
+
+.nb-card-foot .post-tag {
     display: flex;
     list-style-type: none;
     padding: 0;
+    margin: 5px 0;
+}
+
+.post-tag li:first-child {
+    margin-left: 0;
+}
+
+.nb-card-foot.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.nb-card-foot .interaction {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    
+}
+
+.interaction .rates {
+    color: grey;
+}
+
+.share .fb-icon {
+    color: #4267B2;
+}
+
+.share .tw-icon {
+    color: #1DA1F2;
 }
 
 .tag-dark {
     background: #e5e5e5;
 }
+
+/* login-page */
+
+.login-page {
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(146,45,253,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.nb-card-login {
+    max-width: 500px;
+    margin-top: 80px;
+}
+
+.nb-card-login h3 {
+    text-align: center;
+}
+
+.nb-card-login .login-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nb-card-login .login-form input {
+    padding: 10px 20px;
+    width: 300px;
+    margin: 10px 30px;
+}
+
 
 
 /* responsive */ 
