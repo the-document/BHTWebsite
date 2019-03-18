@@ -33,4 +33,9 @@ class PostsController extends Controller
     public function GetCreatePost(){
         return view('create_post');
     }
+
+    public function GetPosts(){
+        $p=DB::Select('select * from posts');
+        return view('posts',compact('p'));
+    }
 }

@@ -44,6 +44,4 @@ Route::get('/home', 'HomeController@index');
 Route::get('posts/CreateNewPost','PostsController@GetCreatePost');
 Route::post('posts/CreateNewPost','PostsController@CreatePost');
 
-Route::get('posts',function (){
-    return 'posts';
-});
+Route::get('posts','PostsController@GetPosts');
