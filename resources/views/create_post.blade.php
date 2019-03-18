@@ -4,7 +4,7 @@
 	<title>Create new post</title>
 </head>
 <body>
-	<form method="post" action="http://website-bht.herokuapp.com/posts">
+	<form method="post" action="http://website-bht.herokuapp.com/posts/CreateNewPost">
         {{ csrf_field() }}
 		<input type="text" name="title" placeholder="title">
 		<input type="text" name="creator" placeholder="creator">
