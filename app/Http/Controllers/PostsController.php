@@ -25,7 +25,7 @@ class PostsController extends Controller
         $heart=$request->input('heart');
         $broken_heart=$request->input('broken_heart');
         $views=$request->input('views');
-
+        echo "<script>console.log( $title.'' );</script>";
         DB::Insert('insert into posts(title,creator,description,censor,content,category,status,heart,broken_heart,views) values(?,?,?,?,?,?,?,?,?,?)',[$title,$creator,$des,$censor,$content,$category,$status,$heart,$broken_heart,$views]);
         return redirect('posts');
     }
