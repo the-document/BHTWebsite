@@ -27,7 +27,7 @@ class PostsController extends Controller
         $views=$request->input('views');
 
         DB::Insert('insert into posts(title,creator,description,censor,content,category,status,heart,broken_heart,views) values(?,?,?,?,?,?,?,?,?,?)',[$title,$creator,$des,$censor,$content,$category,$status,$heart,$broken_heart,$views]);
-        return redirect('posts/CreateNewPost');
+        return redirect('posts');
     }
 
     public function GetCreatePost(){
