@@ -5,7 +5,8 @@
 </head>
 <body>
 	<form method="post" action="http://website-bht.herokuapp.com/posts/CreateNewPost">
-        {{ csrf_field() }}
+        {{--{{ csrf_field() }}--}}
+		<input type="hidden" name="_token" value="{{ csrf_token() }}">
 		<input type="text" name="title" placeholder="title">
 		<input type="text" name="creator" placeholder="creator">
 		<input type="text" name="description" placeholder="description">
