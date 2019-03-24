@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Posts;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use function Sodium\add;
 
 class PostsController extends Controller
 {
@@ -37,5 +39,13 @@ class PostsController extends Controller
     public function GetPosts(){
         $p=DB::Select('select * from posts');
         return view('posts',compact('p'));
+    }
+
+    public function GetPost($id){
+        $po=DB::Select('select * from posts where id= ?',[$id]);
+       // $p=Posts::where('id','=',$id);
+
+        return view('post',['ar'=>$po]);
+       // return $po;
     }
 }

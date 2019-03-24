@@ -2,12 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: Nguyen Hong Phuc
- * Date: 3/17/2019
- * Time: 10:36 AM
+ * Date: 3/24/2019
+ * Time: 12:01 PM
  */
 ?>
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>BHT | Posts</title>
@@ -20,7 +19,7 @@
             <a href="#">
                 <button class="ladda-button btn btn-default waves-effect waves-light" data-style="expand-right">
                     <span class="btn-label"><i class="fa fa-plus"></i></span>Create new post
-                </button>
+</button>
             </a>
         </div>
     </div>
@@ -46,7 +45,8 @@
                 </thead>
 
                 <tbody>
-                @foreach($p as $i => $detail)
+
+                @foreach($ar as $i => $detail)
                     <tr>
                         <td>{{$i + 1}}</td>
                         <td title="{{$detail->title}}">{{$detail->title}}</td>
@@ -57,10 +57,11 @@
                         <td title="{{$detail->category }}">{{$detail->category }} </td>
                     </tr>
                 @endforeach
+
                 </tbody>
             </table>
-        </div>
     </div>
-</div>
-</body>
-</html>
+    </div>
+    </div>
+    </body>
+    </html>
