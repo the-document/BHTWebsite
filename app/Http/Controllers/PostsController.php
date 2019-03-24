@@ -45,7 +45,10 @@ class PostsController extends Controller
         $po=DB::Select('select * from posts where id= ?',[$id]);
        // $p=Posts::where('id','=',$id);
 
-        return view('post',['ar'=>$po]);
-       // return $po;
+        return view('post',compact('po'));
+//        return view('post',['ar'=>$po]);
+//        return view('post')->with('myvar', $po);
+
+        // return $po;
     }
 }
