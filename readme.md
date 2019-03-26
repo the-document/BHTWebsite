@@ -10,12 +10,15 @@ API: http://website-bht.herokuapp.com/
                     'content',
                     'category',
                     }
+                    
 2. get post page:
-+ All posts:/posts
-- method: GET
-+ post have id i: /post/i
-- method: GET
-3. get user info
++ /posts
++ method: GET
+
+3. delete post
++ /post/delete/id
++ method: POST.
+
+4. get user info
 + /UserInfo
 + method: GET
-4. 
