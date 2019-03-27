@@ -1,534 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de3abc49-82c0-4ba1-89ea-044e2ba03ce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/javascripts/get-post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/javascripts/post-editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/prism/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/prism/prism.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/jsonp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/load.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/parseXML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/var/location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/var/nonce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/var/rquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/xhr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/attr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/prop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/val.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/DOMEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/access.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/camelCase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/nodeName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/parseHTML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/ready-no-deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/ready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/readyException.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/stripAndCollapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/toType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/var/rsingleTag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/addGetHookIf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/adjustCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/curCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/showHide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/cssExpand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/getStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/rboxStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/swap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/var/acceptData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/var/dataPriv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/var/dataUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/deferred/exceptionHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/deprecated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/dimensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects/Tween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects/animatedSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/alias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/focusin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/trigger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/exports/amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/exports/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/buildFragment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/getAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/wrapMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/queue/delay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector-native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector-sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/serialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/findFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/var/dir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/var/siblings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/arr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/class2type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/concat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/documentElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/fnToString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/getProto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/hasOwn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/indexOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/isFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/isWindow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/pnum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/rcssNum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/toString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/jquery.tinymce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/jquery.tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/advlist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/advlist/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/anchor/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/anchor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autolink/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autolink/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autoresize/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autoresize/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autosave/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autosave/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/bbcode/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/bbcode/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/charmap/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/charmap/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/code/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/code/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/code/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/codesample/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/codesample/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/codesample/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/colorpicker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/colorpicker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/contextmenu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/contextmenu/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/directionality/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/directionality/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/js/emojis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/js/emojis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/fullpage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/fullpage/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/fullscreen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/fullscreen/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/help/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/help/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/help/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/help/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/hr/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/hr/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/image/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/image/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/image/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/imagetools/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/imagetools/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/importcss/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/importcss/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/insertdatetime/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/insertdatetime/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/legacyoutput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/legacyoutput/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/link/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/link/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/link/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/lists/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/lists/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/media/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/media/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/media/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/nonbreaking/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/nonbreaking/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/noneditable/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/noneditable/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/pagebreak/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/pagebreak/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/paste/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/paste/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/preview/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/preview/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/print/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/print/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/print/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/quickbars/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/quickbars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/quickbars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/save/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/save/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/save/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/searchreplace/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/searchreplace/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/spellchecker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/spellchecker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/tabfocus/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/tabfocus/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/table/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/table/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/table/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/template/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/template/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/template/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/textcolor/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/textcolor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/textpattern/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/textpattern/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/toc/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/toc/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/visualblocks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/visualblocks/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/visualchars/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/visualchars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/wordcount/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/wordcount/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/content/default/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/content/default/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/content/document/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/content/document/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/content/writer/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/content/writer/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/skin.ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/lightgray/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/inlite/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/inlite/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/inlite/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/mobile/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/mobile/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/mobile/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/modern/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/modern/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/modern/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/silver/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/silver/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/themes/silver/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/tinymce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/tinymce/tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/BACKERS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/CONTRIBUTORS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/by.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/by.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/es_ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/es_ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/mn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/my.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/no_nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/no_nb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ph.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/pt_br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/pt_br.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/rs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/rs_latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/rs_latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/ua.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/zh_cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/zh_cn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/zh_tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/langs/zh_tw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/base64/trumbowyg.base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/base64/trumbowyg.base64.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/colors/trumbowyg.colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/colors/trumbowyg.colors.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/colors/ui/sass/trumbowyg.colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/emoji/trumbowyg.emoji.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/emoji/trumbowyg.emoji.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/emoji/ui/sass/trumbowyg.emoji.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/highlight/trumbowyg.highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/highlight/trumbowyg.highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/highlight/ui/sass/trumbowyg.highlight.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/history/trumbowyg.history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/history/trumbowyg.history.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mathml/trumbowyg.mathml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mathml/trumbowyg.mathml.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mathml/ui/sass/trumbowyg.mathml.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mention/trumbowyg.mention.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mention/trumbowyg.mention.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mention/ui/sass/trumbowyg.mention.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/noembed/trumbowyg.noembed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/noembed/trumbowyg.noembed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/ruby/trumbowyg.ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/ruby/trumbowyg.ruby.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/specialchars/ui/sass/trumbowyg.specialchars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/table/trumbowyg.table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/table/trumbowyg.table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/table/ui/sass/trumbowyg.table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/table/ui/trumbowyg.table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/template/trumbowyg.template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/template/trumbowyg.template.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/upload/trumbowyg.upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/plugins/upload/trumbowyg.upload.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/trumbowyg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/trumbowyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/ui/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/ui/sass/trumbowyg.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/ui/trumbowyg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/dist/ui/trumbowyg.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/trumbowyg/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/create_post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create_post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="de3abc49-82c0-4ba1-89ea-044e2ba03ce5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -557,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="578">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -567,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/public/assets/javascripts/get-post.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="17" selection-end-column="23" />
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -577,11 +50,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/post.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+            <state relative-caret-position="881">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#40#54#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -598,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/javascripts/post-editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="510">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -607,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/posts.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="731">
               <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="58" selection-end-column="27" />
             </state>
           </provider>
@@ -759,104 +244,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="WebsiteBHT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteBHT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="WebsiteBHT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteBHT" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="WebsiteBHT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteBHT" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebsiteBHT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteBHT" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="WebsiteBHT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteBHT" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="trumbowyg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="trumbowyg" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="trumbowyg" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="trumbowyg" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BHTWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BHTWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -921,17 +344,17 @@
       <workItem from="1553401206385" duration="475000" />
       <workItem from="1553403634975" duration="6807000" />
       <workItem from="1553413982500" duration="13640000" />
+      <workItem from="1553578403459" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62333000" />
+    <option name="totallyTimeSpent" value="62365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -946,7 +369,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3252818" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1086,13 +509,7 @@
     <entry file="file://$PROJECT_DIR$/config/view.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Cors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Cors.php" />
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1167">
@@ -1128,16 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="47" selection-start-line="47" selection-end-line="48" />
-          <folding>
-            <element signature="e#40#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1148,26 +555,22 @@
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="578">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/javascripts/post-editor.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/javascripts/get-post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/prism/prism.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/create_post.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1176,20 +579,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/javascripts/get-post.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/javascripts/post-editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/prism/prism.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/resources/views/posts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/post.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        <state relative-caret-position="881">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
