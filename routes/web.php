@@ -45,4 +45,5 @@ Route::get('posts/CreateNewPost','PostsController@GetCreatePost');
 Route::post('posts/CreateNewPost','PostsController@CreatePost');
 
 Route::get('posts','PostsController@GetPosts');
-Route::get('post/{id}','PostsController@GetPost');
+Route::get('post/{id}', 'PostsController@GetPost');
+
