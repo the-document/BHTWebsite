@@ -47,3 +47,8 @@ Route::post('posts/CreateNewPost','PostsController@CreatePost');
 Route::get('posts','PostsController@GetPosts');
 Route::get('post/{id}', 'PostsController@GetPost');
 
+Route::post('post/delete/{id}','PostsController@DeletePost');
+
+Route::get('test',function (){
+    return view('test');
+});

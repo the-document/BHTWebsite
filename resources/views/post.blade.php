@@ -24,6 +24,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('/assets/styles.css') }}">
     <script type="text/javascript" src="{{ asset('/assets/javascripts/get-post.js') }}"></script>
+
+    {{--using temp - warring--}}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Ban học tập công nghệ phần mềm</title>
 </head>
 
@@ -70,6 +74,26 @@
         </ul>
     </nav> -->
 </header>
+
+    @if(count($errors)>0)
+        <div class="container">
+            <div class="alert alert-danger" role="alert">
+                @foreach($errors->all() as $err)
+                    {{$err}}<br/>
+                @endforeach
+
+            </div>
+            <h5>
+                <a href="http://website-bht.herokuapp.com/login">Login</a> or <a href="http://website-bht.herokuapp.com/register">Register?</a>
+            </h5>
+
+        </div>
+
+    @endif
+
+
+
+
 <main class="post-page wraper">
     <div class="row">
         <div class="col-lg-2">

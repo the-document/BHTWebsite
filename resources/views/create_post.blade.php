@@ -65,7 +65,7 @@
     <div class="row">
 
         <div class="col-12">
-            <form id="post-form" method="post" action="http://website-bht.herokuapp.com/posts/CreateNewPost">
+            <form id="post-form" method="post" action="CreateNewPost">
                 <label for="title">Title:</label>
                 <input id="post-title" class="post-input" type="text" name="title" placeholder="please input title here"/>
                 <input id="author" type="hidden" name="creator" value="thinhnnd">

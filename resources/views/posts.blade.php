@@ -11,9 +11,24 @@
 <html>
 <head>
     <title>BHT | Posts</title>
+    {{--using temp - notify--}}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+
+{{--Thong bao xoa thanh cong post va duoc chuyen huong qua day--}}
+@if(\Illuminate\Support\Facades\Session::has('message'))
+    <div class="container">
+        <div class="alert alert-success" role="alert">
+            {{\Illuminate\Support\Facades\Session::get('message')}}
+        </div>
+
+    </div>
+
+@endif
+
+
 <div class="row">
     <div class="col-md-12">
         <div class="form-group">
