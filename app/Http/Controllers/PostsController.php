@@ -40,7 +40,7 @@ class PostsController extends Controller
     }
 
     public function GetPosts(){
-        $p=DB::Select('select * from posts');
+        $p=DB::Select('select * from POSTS');
         return view('posts',compact('p'));
     }
 

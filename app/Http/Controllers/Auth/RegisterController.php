@@ -83,7 +83,10 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'level' => '2', //2 mem - 1 duyet bai - 0 admin full control
+            // 'imageUrl'=>'null',
+            'des'=> 'this person dont have description',
+            'score'=> 0,
+            'levelPermisstion' => 2, //2 mem - 1 duyet bai - 0 admin full control
         ]);
     }
 

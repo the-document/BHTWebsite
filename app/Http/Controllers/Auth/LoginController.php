@@ -76,6 +76,7 @@ class LoginController extends Controller
             if(Auth::attempt(['email'=>$email, 'password'=>$pass]))
             {
                 return redirect('home');
+
             }
             else
             {

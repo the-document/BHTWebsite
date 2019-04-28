@@ -41,6 +41,10 @@ Route::get('/home', 'HomeController@index');
 //    return view('home');
 //});
 
+//Users-----------------------------------------------------------------------------------------
+Route::get('users/{id}','UsersController@GetProfileUser');
+
+//Post-----------------------------------------------------------------------------------------
 Route::get('posts/CreateNewPost','PostsController@GetCreatePost');
 Route::post('posts/CreateNewPost','PostsController@CreatePost');
 
@@ -49,6 +53,8 @@ Route::get('post/{id}', 'PostsController@GetPost');
 
 Route::post('post/delete/{id}','PostsController@DeletePost');
 
-Route::get('test',function (){
+
+//API-------------------------------------------------------------------------------------------
+Route::get('api',function (){
     return view('test');
 });
