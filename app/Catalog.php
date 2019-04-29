@@ -8,4 +8,5 @@ class Catalog extends Model
 {
     protected $table='CATALOGS';
     protected $primaryKey='CATALOGSID';
+    public $incrementing=false;
 }

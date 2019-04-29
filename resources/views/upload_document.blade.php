@@ -15,21 +15,32 @@
 </head>
 
 <body>
-<form action="/action_page.php" class="container">
+
+@if(count($errors)>0)
+    <div class="alert alert-danger" role="alert">
+        <ul>
+            @foreach($errors->all() as $er)
+               <li>{{$er}}</li>
+                @endforeach
+        </ul>
+    </div>
+@endif
+
+<form action="upload" class="container" method="post">
     <div class="form-group">
         <label for="email">Doc name:</label>
-        <input type="text" class="form-control" id="docname">
+        <input type="text" class="form-control" name="docName">
     </div>
     <div class="form-group">
         <label for="pwd">Doc link:</label>
-        <input type="text" class="form-control" id="doclink">
+        <input type="text" class="form-control" name="docLink">
     </div>
     <div class="form-group">
         <label for="pwd">Doc Catalog:</label>
-        <select  class="form-control" id="doccatalog">
+        <select  class="form-control" name="docCatalog">
             @foreach($docCatalogs as $i => $cata)
-                {{--<option value="{{$cata->CATALOGSID}}">{{$cata->CATALOGSID}}</option>--}}
-                <option value="{{$cata->CATALOGSNAME}}">{{$cata->CATALOGSNAME}}</option>
+                <option value="{{$cata->CATALOGSID}}">{{$cata->CATALOGSNAME}}</option>
+                {{--<option value="{{$cata->CATALOGSNAME}}">{{$cata->CATALOGSNAME}}</option>--}}
                 @endforeach
         </select>
     </div>
