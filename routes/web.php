@@ -44,6 +44,13 @@ Route::get('/home', 'HomeController@index');
 //Users-----------------------------------------------------------------------------------------
 Route::get('users/{id}','UsersController@GetProfileUser');
 
+//Documents-----------------------------------------------------------------------------------------
+Route::get('documents','DocumentController@GetAllCatalog');
+Route::get('documents/upload','DocumentController@GetUploadDocumentView');
+Route::get('documents/{idCatalog}','DocumentController@GetDocumentOfCatalog');
+Route::get('documents/details/{idDocument}','DocumentController@GetDocument');
+Route::post('documents/upload','DocumentController@UploadDocument');
+
 //Post-----------------------------------------------------------------------------------------
 Route::get('posts/CreateNewPost','PostsController@GetCreatePost');
 Route::post('posts/CreateNewPost','PostsController@CreatePost');

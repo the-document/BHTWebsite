@@ -7,7 +7,7 @@
  */
 ?>
 
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>BHT | Posts</title>

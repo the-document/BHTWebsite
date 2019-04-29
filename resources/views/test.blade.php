@@ -73,6 +73,31 @@
                         <td >/logout</td>
                         <td >Logout</td>
                     </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td ><button type="button" class="btn btn-primary">GET</button></td>
+                        <td >/documents</td>
+                        <td >Get all catalof of document</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td ><button type="button" class="btn btn-primary">GET</button></td>
+                        <td >/documents/upload</td>
+                        <td >Get view upload document</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td ><button type="button" class="btn btn-primary">GET</button></td>
+                        <td >/documents/{idCatalog}</td>
+                        <td >Get documents in catalog id</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td ><button type="button" class="btn btn-primary">GET</button></td>
+                        <td >/documents/details/{idDocument}</td>
+                        <td >Get view details of document</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
