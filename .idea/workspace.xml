@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3abc49-82c0-4ba1-89ea-044e2ba03ce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/details_document.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Catalog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DocumentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocumentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/upload_document.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/upload_document.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/details_document.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/details_document.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="145">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -58,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/details_document.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="84" column="62" lean-forward="true" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
+            <state relative-caret-position="289">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -372,12 +367,12 @@
       <workItem from="1553997934947" duration="6436000" />
       <workItem from="1556459387315" duration="7710000" />
       <workItem from="1556505215880" duration="7541000" />
-      <workItem from="1556524646224" duration="8915000" />
+      <workItem from="1556524646224" duration="9159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92977000" />
+    <option name="totallyTimeSpent" value="93221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -686,15 +681,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="145">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/details_document.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="84" column="62" lean-forward="true" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
