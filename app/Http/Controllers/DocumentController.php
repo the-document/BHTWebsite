@@ -19,24 +19,28 @@ class DocumentController extends Controller
 {
     public function GetAllCatalog(){
         $catalogs=Catalog::all();
-        return $catalogs;
+        return view('documents_catalog',compact('catalogs'));
     }
 
     public function GetDocumentOfCatalog($idCatalog){
-        $documents=Document::where('DOCCATALOG',$idCatalog)->get(['DOCID','DOCNAME']);
-            return $documents;
+        $documents=Document::where('DOCCATALOG',$idCatalog)->get(['DOCID','DOCNAME','DOCLINK']);
+            return view('documents_of_catalogs',compact('documents'));
     }
 
     public function GetDocument($idDocument){
+        //update views-------------------------------------------------------------
+        $d=Document::where('DOCID',$idDocument)->first();
+        $d->update(['DOCVIEWS'=>$d->DOCVIEWS+1]);
+
         //$documents=Document::where('DOCID',$idDocument)->get();
-        $documents=DB::select("SELECT DOCUMENT.*, users.name FROM DOCUMENT, users WHERE DOCUMENT.USERID=users.id");
-        return view('details_document',compact('documents'));
+        $documents=DB::select("SELECT DOCUMENT.*, users.name FROM DOCUMENT, users WHERE DOCUMENT.USERID=users.id and DOCID =?",[$idDocument]);
+        return view('documents_details',compact('documents'));
 
     }
 
     public function GetUploadDocumentView(){
         $docCatalogs=Catalog::all();
-        return view('upload_document',compact('docCatalogs'));
+        return view('documents_upload',compact('docCatalogs'));
     }
 
     public function UploadDocument(Http\Request $request){
@@ -57,7 +61,7 @@ class DocumentController extends Controller
         $vali= Validator::make($request->all(),$rules,$message);
         if($vali->fails()){
             $docCatalogs =Catalog::all();
-            return view('upload_document',compact('docCatalogs'))->withErrors($vali);
+            return view('documents_upload',compact('docCatalogs'))->withErrors($vali);
             // return $vali->errors() ;
         }
         else
@@ -74,8 +78,7 @@ class DocumentController extends Controller
                 $doc->DOCCATALOG=$request->docCatalog;
 
                 if($doc->save())
-                return details;
-                redirect('home');
+                return redirect('documents/details/'.$doc->DOCID);
             }
             else
                 return redirect('login');

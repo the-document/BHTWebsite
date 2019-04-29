@@ -3,10 +3,9 @@
  * Created by PhpStorm.
  * User: Nguyen Hong Phuc
  * Date: 4/29/2019
- * Time: 11:13 AM
+ * Time: 8:35 PM
  */?>
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>BHT | Upload Documents</title>
@@ -20,8 +19,8 @@
     <div class="alert alert-danger" role="alert">
         <ul>
             @foreach($errors->all() as $er)
-               <li>{{$er}}</li>
-                @endforeach
+                <li>{{$er}}</li>
+            @endforeach
         </ul>
     </div>
 @endif
@@ -41,7 +40,7 @@
             @foreach($docCatalogs as $i => $cata)
                 <option value="{{$cata->CATALOGSID}}">{{$cata->CATALOGSNAME}}</option>
                 {{--<option value="{{$cata->CATALOGSNAME}}">{{$cata->CATALOGSNAME}}</option>--}}
-                @endforeach
+            @endforeach
         </select>
     </div>
 
@@ -51,3 +50,4 @@
 
 </body>
 </html>
+

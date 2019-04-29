@@ -3,10 +3,10 @@
  * Created by PhpStorm.
  * User: Nguyen Hong Phuc
  * Date: 4/29/2019
- * Time: 4:09 PM
+ * Time: 8:30 PM
  */?>
-        <!DOCTYPE html>
-<html lang="en" xmlns:z-index="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en" xmlns:z-index="http://www.w3.org/1999/xhtml" xmlns:background-repeat="http://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -74,16 +74,13 @@
         @media (min-width:768px){.masthead{height:100%;min-height:0;
             width:40.5rem;padding-bottom:0}
             .masthead .masthead-bg{min-height:0;
-                                                                                -webkit-transform:skewX(-8deg);transform:skewX(-8deg);-webkit-transform-origin:top right;transform-origin:top right}.masthead .masthead-content{padding-left:3rem;padding-right:10rem}.masthead .masthead-content h1{font-size:3.5rem}.masthead .masthead-content p{font-size:1.3rem}}.social-icons{position:absolute;margin-bottom:2rem;width:100%;z-index:2}.social-icons ul{margin-top:2rem;width:100%;text-align:center}.social-icons ul>li{margin-left:1rem;margin-right:1rem;display:inline-block}.social-icons ul>li>a{display:block;color:#fff;background-color:rgba(0,46,102,.8);border-radius:100%;font-size:2rem;line-height:4rem;height:4rem;width:4rem}@media (min-width:768px){.social-icons{margin:0;position:absolute;right:2.5rem;bottom:2rem;width:auto}.social-icons ul{margin-top:0;width:auto}.social-icons ul>li{display:block;margin-left:0;margin-right:0;margin-bottom:2rem}.social-icons ul>li:last-child{margin-bottom:0}.social-icons ul>li>a{-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;font-size:2rem;line-height:4rem;height:4rem;width:4rem}.social-icons ul>li>a:hover{background-color:#002e66}}.btn-secondary{background-color:#cd9557;border-color:#cd9557}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#ba7c37!important;border-color:#ba7c37!important}.input{font-weight:300!important}
+                -webkit-transform:skewX(-8deg);transform:skewX(-8deg);-webkit-transform-origin:top right;transform-origin:top right}.masthead .masthead-content{padding-left:3rem;padding-right:10rem}.masthead .masthead-content h1{font-size:3.5rem}.masthead .masthead-content p{font-size:1.3rem}}.social-icons{position:absolute;margin-bottom:2rem;width:100%;z-index:2}.social-icons ul{margin-top:2rem;width:100%;text-align:center}.social-icons ul>li{margin-left:1rem;margin-right:1rem;display:inline-block}.social-icons ul>li>a{display:block;color:#fff;background-color:rgba(0,46,102,.8);border-radius:100%;font-size:2rem;line-height:4rem;height:4rem;width:4rem}@media (min-width:768px){.social-icons{margin:0;position:absolute;right:2.5rem;bottom:2rem;width:auto}.social-icons ul{margin-top:0;width:auto}.social-icons ul>li{display:block;margin-left:0;margin-right:0;margin-bottom:2rem}.social-icons ul>li:last-child{margin-bottom:0}.social-icons ul>li>a{-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;font-size:2rem;line-height:4rem;height:4rem;width:4rem}.social-icons ul>li>a:hover{background-color:#002e66}}.btn-secondary{background-color:#cd9557;border-color:#cd9557}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#ba7c37!important;border-color:#ba7c37!important}.input{font-weight:300!important}
 
     </style>
 </head>
 
-<body>
+<body style="background-image: url({{$documents[0]->DOCLINK}});  background-repeat:repeat" >
 <div class="overlay"></div>
-<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="{{$documents[0]->DOCLINK}}" type="video/mp4">
-</video>
 
 <div class="masthead">
     <div class="masthead-bg"></div>
@@ -115,3 +112,4 @@
 </body>
 
 </html>
+

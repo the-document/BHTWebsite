@@ -12,4 +12,8 @@ class Document extends Model
 
     protected $table='DOCUMENT';
     protected $primaryKey='DOCID';
+
+    protected $fillable = [
+        'USERID', 'DOCNAME', 'DOCLINK','DOCVIEWS','DOCCATALOG',
+    ];
 }
