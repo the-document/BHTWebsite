@@ -9,12 +9,16 @@
 namespace App\Http\Controllers;
 
 
+use App\Document;
 use App\User;
 
 class UsersController extends Controller
 {
     public function GetProfileUser($idUser){
         $u = User::where('id',$idUser)->first();
-        return "Hello". $u;
+        $d=Document::where('USERID',$idUser)->get();
+
+        return view('users_profile',compact('u','d' ));
+       // return $d;
     }
 }

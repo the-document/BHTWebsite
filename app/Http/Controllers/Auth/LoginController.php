@@ -57,7 +57,7 @@ class LoginController extends Controller
         ];
 
         $message=[
-            'email.required'=>'Không thể để trong Email',
+            'email.required'=>'Không thể để trống Email',
             'email.email'=>'Tên đăng nhập phải là email',
             'password.required'=>'Bạn chưa nhập mật khẩu',
             'password.min'=>'Mật khẩu không được ít hơn 8 kí tự'
